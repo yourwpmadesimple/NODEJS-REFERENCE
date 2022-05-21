@@ -1,5 +1,7 @@
 # Node.JS REFERENCE
 
+- ['global' module](https://github.com/yourwpmadesimple/NODEJS-REFERENCE#global)
+
 ## 'global'
 *returns the nodejs global object*
 ```javascript
