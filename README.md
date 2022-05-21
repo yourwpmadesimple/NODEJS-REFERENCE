@@ -50,10 +50,10 @@ Windows 10 Home
 C:\Users\wayne
 ```
 ##
-<detail><summary>Example</summary>
+<details><summary>Example</summary>
 ```javascript
 ```
-</detail>
+</details>
 ```javascript
 ```
 ```javascript
