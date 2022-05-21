@@ -75,10 +75,10 @@ C:\Users\wayne
   console.log(path.parse(__filename))
 
   // Output
-path.dirname: C:\GitHub\nodejs-reference
-path.basename: index.js
-path.extname: .js
-path.parse: {
+C:\GitHub\nodejs-reference
+index.js
+.js
+{
   root: 'C:\\',
   dir: 'C:\\GitHub\\nodejs-reference',
   base: 'index.js',
