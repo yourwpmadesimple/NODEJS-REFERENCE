@@ -1,6 +1,6 @@
-### Node.JS REFERENCE
-*global returns the nodejs global object
----javascript
+# Node.JS REFERENCE
+**global** global returns the nodejs global object
+```javascript
 <ref *1> Object [global] {
       bootstrapComplete: 43.464800000190735,
       environment: 21.304999992251396,
@@ -15,23 +15,23 @@
     [Symbol(nodejs.util.promisify.custom)]: [Getter]
   }
 }
----
+```
 
 
----javascript
----
+```javascript
+```
 
----javascript
----
----javascript
----
----javascript
----
----javascript
----
----javascript
----
----javascript
----
----javascript
----
+```javascript
+```
+```javascript
+```
+```javascript
+```
+```javascript
+```
+```javascript
+```
+```javascript
+```
+```javascript
+```
