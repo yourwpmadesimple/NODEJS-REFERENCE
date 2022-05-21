@@ -44,9 +44,9 @@ console.log(os.type())
 console.log(os.version())
 console.log(os.homedir())
 
-```Windows_NT
+Windows_NT
 Windows 10 Home
-C:\Users\wayne```
+C:\Users\wayne
 ```
 
 ## The Node.js '__dirname' enviroment variable
