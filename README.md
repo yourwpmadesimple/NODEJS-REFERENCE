@@ -2,7 +2,7 @@
 
 - ['global' module](https://github.com/yourwpmadesimple/NODEJS-REFERENCE#global)
 
-## 'global'
+## The Node.js 'global' module
 *returns the nodejs global object*
 ```javascript
 console.log(global)
