@@ -51,26 +51,21 @@ C:\Users\wayne
 
 ## The Node.js '__dirname' enviroment variable
 > __dirname is an environment variable that tells you the absolute path of the directory containing the currently executing file
-<details><summary>Show Example</summary>
-<p>
   ```javascript
-  
   C:\GitHub\nodejs-reference
   C:\GitHub\nodejs-reference\index.js
   ```
-</p>
-</details>
 
 ## The Node.js 'path' module
 > The path module provides a lot of very useful functionality to access and interact with the file system.
-<details><summary>Show Example</summary>
-<p>
-  ```javascript
-  
+```javascript
   const path = require('path') 
   console.log(path.dirname(__filename));
   console.log(path.basename(__filename));
   console.log(path.extname(__filename));
-  ```
-</p>
-</details>
+
+  // Output
+  C:\GitHub\nodejs-reference
+  index.js
+  .js
+```

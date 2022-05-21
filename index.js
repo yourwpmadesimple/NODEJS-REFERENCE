@@ -9,8 +9,8 @@
 // console.log(os.homedir());
 
 // File system evironment variables  //
-console.log(__dirname);
-console.log(__filename);
+// console.log(__dirname);
+// console.log(__filename);
 
 // Node.js path {filesystem} module //
 const path = require("path");
