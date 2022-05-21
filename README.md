@@ -90,6 +90,41 @@ index.js
 ## Importing file modules
 > Importing files from within the filesystem
 ```javascript
+// math.js
+const add = (a, b) => {
+  return a + b;
+};
+const subtract = (a, b) => {
+  return a - b;
+};
+const multiply = (a, b) => {
+  return a * b;
+};
+const divide = (a, b) => {
+  return a / b;
+};
+
+module.exports = {
+  add,
+  subtract,
+  multiply,
+  divide,
+};
+
+exports.add = (a, b) => {
+  return a + b;
+};
+exports.subtract = (a, b) => {
+  return a - b;
+};
+exports.multiply = (a, b) => {
+  return a * b;
+};
+exports.divide = (a, b) => {
+  return a / b;
+};
+
+// index.js
 const math = require('./math')
 console.log(math.add(2,4))
 console.log(math.substract(2,4))
@@ -112,3 +147,5 @@ console.log(divide(2,4))
 -2
 8
 0.5
+```
+</details>
