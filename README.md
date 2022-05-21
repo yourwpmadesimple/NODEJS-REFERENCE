@@ -34,8 +34,7 @@
   }
 }
 ```
-
-## 'os'
+## The Node.js 'os' module
 >This module provides many functions that you can use to retrieve information from the underlying operating system and the computer the program runs on, and interact with it.
 ```javascript
 // Operating system info
@@ -45,24 +44,27 @@ console.log(os.type())
 console.log(os.version())
 console.log(os.homedir())
 
-Windows_NT
+```Windows_NT
 Windows 10 Home
-C:\Users\wayne
+C:\Users\wayne```
 ```
-##
-<details><summary>Example</summary>
+
+## The Node.js '__dirname' enviroment variable
+> __dirname is an environment variable that tells you the absolute path of the directory containing the currently executing file
+<details><summary>Show Example</summary>
 ```javascript
+C:\GitHub\nodejs-reference
+C:\GitHub\nodejs-reference\index.js
 ```
 </details>
+
+## The Node.js 'path' module
+> The path module provides a lot of very useful functionality to access and interact with the file system.
+<details><summary>Show Example</summary>
 ```javascript
+const path = require('path') 
+console.log(path.dirname(__filename));
+console.log(path.basename(__filename));
+console.log(path.extname(__filename));
 ```
-```javascript
-```
-```javascript
-```
-```javascript
-```
-```javascript
-```
-```javascript
-```
+</details>
