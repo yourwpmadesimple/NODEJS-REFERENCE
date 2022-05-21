@@ -54,6 +54,7 @@ C:\Users\wayne
 <details><summary>Show Example</summary>
 <p>
   ```javascript
+  
   C:\GitHub\nodejs-reference
   C:\GitHub\nodejs-reference\index.js
   ```
@@ -65,6 +66,7 @@ C:\Users\wayne
 <details><summary>Show Example</summary>
 <p>
   ```javascript
+  
   const path = require('path') 
   console.log(path.dirname(__filename));
   console.log(path.basename(__filename));
