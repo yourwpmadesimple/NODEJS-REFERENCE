@@ -3,6 +3,9 @@
 ## 'global'
 *returns the nodejs global object*
 ```javascript
+console.log(global)
+
+// Output
 <ref *1> Object [global] {
   global: [Circular *1],
   clearInterval: [Function: clearInterval],
@@ -44,6 +47,7 @@ console.log(os.type())
 console.log(os.version())
 console.log(os.homedir())
 
+// Output
 Windows_NT
 Windows 10 Home
 C:\Users\wayne
@@ -52,6 +56,10 @@ C:\Users\wayne
 ## The Node.js '__dirname' enviroment variable
 > __dirname is an environment variable that tells you the absolute path of the directory containing the currently executing file
   ```javascript
+  console.log(__dirname);
+  console.log(__filename)
+
+  // Output
   C:\GitHub\nodejs-reference
   C:\GitHub\nodejs-reference\index.js
   ```
@@ -60,12 +68,22 @@ C:\Users\wayne
 > The path module provides a lot of very useful functionality to access and interact with the file system.
 ```javascript
   const path = require('path') 
+
   console.log(path.dirname(__filename));
   console.log(path.basename(__filename));
   console.log(path.extname(__filename));
+  console.log(path.parse(__filename))
 
   // Output
-  C:\GitHub\nodejs-reference
-  index.js
-  .js
+path.dirname: C:\GitHub\nodejs-reference
+path.basename: index.js
+path.extname: .js
+path.parse: {
+  root: 'C:\\',
+  dir: 'C:\\GitHub\\nodejs-reference',
+  base: 'index.js',
+  ext: '.js',
+  name: 'index'
+}
 ```
+## 
